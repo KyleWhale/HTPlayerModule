@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012450002A7763F2009CD788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01244FFF2A7763F2009CD788 /* AppDelegate.m */; };
+		012450032A7763F2009CD788 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450022A7763F2009CD788 /* SceneDelegate.m */; };
+		012450062A7763F2009CD788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450052A7763F2009CD788 /* ViewController.m */; };
+		012450092A7763F2009CD788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012450072A7763F2009CD788 /* Main.storyboard */; };
+		0124500B2A7763F4009CD788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0124500A2A7763F4009CD788 /* Assets.xcassets */; };
+		0124500E2A7763F4009CD788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0124500C2A7763F4009CD788 /* LaunchScreen.storyboard */; };
+		012450112A7763F4009CD788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450102A7763F4009CD788 /* main.m */; };
+		012450492A77685C009CD788 /* HTSubtitleLanguageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450232A77685C009CD788 /* HTSubtitleLanguageViewManager.m */; };
+		0124504A2A77685C009CD788 /* HTSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450282A77685C009CD788 /* HTSettingCell.m */; };
+		0124504B2A77685C009CD788 /* HTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450292A77685C009CD788 /* HTPlayer.m */; };
+		0124504C2A77685C009CD788 /* HTEpisodesMainViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124502B2A77685C009CD788 /* HTEpisodesMainViewManager.m */; };
+		0124504D2A77685C009CD788 /* HTChangeEpisodesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124502C2A77685C009CD788 /* HTChangeEpisodesView.m */; };
+		0124504E2A77685C009CD788 /* HTPlayBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124502D2A77685C009CD788 /* HTPlayBottomBar.m */; };
+		0124504F2A77685C009CD788 /* HTSubtitleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124502E2A77685C009CD788 /* HTSubtitleObject.m */; };
+		012450502A77685C009CD788 /* HTEpisodesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124502F2A77685C009CD788 /* HTEpisodesViewCell.m */; };
+		012450512A77685C009CD788 /* HTLanguageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450352A77685C009CD788 /* HTLanguageCell.m */; };
+		012450522A77685C009CD788 /* HTChangeSubtitleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450362A77685C009CD788 /* HTChangeSubtitleViewManager.m */; };
+		012450532A77685C009CD788 /* HTSubtitleMainViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450372A77685C009CD788 /* HTSubtitleMainViewManager.m */; };
+		012450542A77685C009CD788 /* HTSubtitleMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450382A77685C009CD788 /* HTSubtitleMainView.m */; };
+		012450552A77685C009CD788 /* HTSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450392A77685C009CD788 /* HTSubtitleView.m */; };
+		012450562A77685C009CD788 /* HTSubtitleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124503C2A77685C009CD788 /* HTSubtitleManager.m */; };
+		012450572A77685C009CD788 /* HTEpisodesMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124503D2A77685C009CD788 /* HTEpisodesMainView.m */; };
+		012450582A77685C009CD788 /* HTChangeSubtitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124503E2A77685C009CD788 /* HTChangeSubtitleView.m */; };
+		012450592A77685C009CD788 /* HTPlayBottomBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124503F2A77685C009CD788 /* HTPlayBottomBarManager.m */; };
+		0124505A2A77685C009CD788 /* HTSubtitleSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450452A77685C009CD788 /* HTSubtitleSettingView.m */; };
+		0124505B2A77685C009CD788 /* HTSubtitleLanguageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450462A77685C009CD788 /* HTSubtitleLanguageView.m */; };
+		0124505C2A77685C009CD788 /* HTPlayerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450472A77685C009CD788 /* HTPlayerViewModel.m */; };
+		0124505D2A77685C009CD788 /* HTSubtitleSettingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450482A77685C009CD788 /* HTSubtitleSettingViewManager.m */; };
+		012450602A7768EA009CD788 /* HTSubtitlesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0124505F2A7768EA009CD788 /* HTSubtitlesModel.m */; };
+		012450692A776912009CD788 /* HTTVDetailEpsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450632A776912009CD788 /* HTTVDetailEpsModel.m */; };
+		0124506A2A776912009CD788 /* HTTVDetailCastsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450652A776912009CD788 /* HTTVDetailCastsModel.m */; };
+		0124506B2A776912009CD788 /* HTTVDetailSeasonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450662A776912009CD788 /* HTTVDetailSeasonModel.m */; };
+		0124506C2A776912009CD788 /* HTTVDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 012450682A776912009CD788 /* HTTVDetailModel.m */; };
+		7E6EB8310A5746DDF6CBA1A4 /* Pods_HTPlayerModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F2578D2BEFA0E870BD2D38 /* Pods_HTPlayerModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01244FFB2A7763F2009CD788 /* HTPlayerModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTPlayerModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01244FFE2A7763F2009CD788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01244FFF2A7763F2009CD788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		012450012A7763F2009CD788 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		012450022A7763F2009CD788 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		012450042A7763F2009CD788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		012450052A7763F2009CD788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		012450082A7763F2009CD788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0124500A2A7763F4009CD788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0124500D2A7763F4009CD788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0124500F2A7763F4009CD788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012450102A7763F4009CD788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0124501D2A776827009CD788 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0124501F2A77685C009CD788 /* HTSubtitleMainViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleMainViewManager.h; sourceTree = "<group>"; };
+		012450202A77685C009CD788 /* HTSubtitleMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleMainView.h; sourceTree = "<group>"; };
+		012450212A77685C009CD788 /* HTChangeSubtitleViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeSubtitleViewManager.h; sourceTree = "<group>"; };
+		012450222A77685C009CD788 /* HTLanguageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTLanguageCell.h; sourceTree = "<group>"; };
+		012450232A77685C009CD788 /* HTSubtitleLanguageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleLanguageViewManager.m; sourceTree = "<group>"; };
+		012450242A77685C009CD788 /* HTPlayBottomBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayBottomBarManager.h; sourceTree = "<group>"; };
+		012450252A77685C009CD788 /* HTChangeSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeSubtitleView.h; sourceTree = "<group>"; };
+		012450262A77685C009CD788 /* HTEpisodesMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesMainView.h; sourceTree = "<group>"; };
+		012450272A77685C009CD788 /* HTSubtitleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleManager.h; sourceTree = "<group>"; };
+		012450282A77685C009CD788 /* HTSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSettingCell.m; sourceTree = "<group>"; };
+		012450292A77685C009CD788 /* HTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayer.m; sourceTree = "<group>"; };
+		0124502A2A77685C009CD788 /* HTSubtitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleView.h; sourceTree = "<group>"; };
+		0124502B2A77685C009CD788 /* HTEpisodesMainViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesMainViewManager.m; sourceTree = "<group>"; };
+		0124502C2A77685C009CD788 /* HTChangeEpisodesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeEpisodesView.m; sourceTree = "<group>"; };
+		0124502D2A77685C009CD788 /* HTPlayBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayBottomBar.m; sourceTree = "<group>"; };
+		0124502E2A77685C009CD788 /* HTSubtitleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleObject.m; sourceTree = "<group>"; };
+		0124502F2A77685C009CD788 /* HTEpisodesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesViewCell.m; sourceTree = "<group>"; };
+		012450302A77685C009CD788 /* HTSubtitleSettingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleSettingViewManager.h; sourceTree = "<group>"; };
+		012450312A77685C009CD788 /* HTPlayerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayerViewModel.h; sourceTree = "<group>"; };
+		012450322A77685C009CD788 /* HTSubtitleLanguageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleLanguageView.h; sourceTree = "<group>"; };
+		012450332A77685C009CD788 /* HTSubtitleSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleSettingView.h; sourceTree = "<group>"; };
+		012450342A77685C009CD788 /* HTSubtitleLanguageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleLanguageViewManager.h; sourceTree = "<group>"; };
+		012450352A77685C009CD788 /* HTLanguageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTLanguageCell.m; sourceTree = "<group>"; };
+		012450362A77685C009CD788 /* HTChangeSubtitleViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeSubtitleViewManager.m; sourceTree = "<group>"; };
+		012450372A77685C009CD788 /* HTSubtitleMainViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleMainViewManager.m; sourceTree = "<group>"; };
+		012450382A77685C009CD788 /* HTSubtitleMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleMainView.m; sourceTree = "<group>"; };
+		012450392A77685C009CD788 /* HTSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleView.m; sourceTree = "<group>"; };
+		0124503A2A77685C009CD788 /* HTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayer.h; sourceTree = "<group>"; };
+		0124503B2A77685C009CD788 /* HTSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSettingCell.h; sourceTree = "<group>"; };
+		0124503C2A77685C009CD788 /* HTSubtitleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleManager.m; sourceTree = "<group>"; };
+		0124503D2A77685C009CD788 /* HTEpisodesMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTEpisodesMainView.m; sourceTree = "<group>"; };
+		0124503E2A77685C009CD788 /* HTChangeSubtitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTChangeSubtitleView.m; sourceTree = "<group>"; };
+		0124503F2A77685C009CD788 /* HTPlayBottomBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayBottomBarManager.m; sourceTree = "<group>"; };
+		012450402A77685C009CD788 /* HTEpisodesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesViewCell.h; sourceTree = "<group>"; };
+		012450412A77685C009CD788 /* HTSubtitleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitleObject.h; sourceTree = "<group>"; };
+		012450422A77685C009CD788 /* HTPlayBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPlayBottomBar.h; sourceTree = "<group>"; };
+		012450432A77685C009CD788 /* HTEpisodesMainViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTEpisodesMainViewManager.h; sourceTree = "<group>"; };
+		012450442A77685C009CD788 /* HTChangeEpisodesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTChangeEpisodesView.h; sourceTree = "<group>"; };
+		012450452A77685C009CD788 /* HTSubtitleSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleSettingView.m; sourceTree = "<group>"; };
+		012450462A77685C009CD788 /* HTSubtitleLanguageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleLanguageView.m; sourceTree = "<group>"; };
+		012450472A77685C009CD788 /* HTPlayerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPlayerViewModel.m; sourceTree = "<group>"; };
+		012450482A77685C009CD788 /* HTSubtitleSettingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitleSettingViewManager.m; sourceTree = "<group>"; };
+		0124505E2A7768EA009CD788 /* HTSubtitlesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTSubtitlesModel.h; sourceTree = "<group>"; };
+		0124505F2A7768EA009CD788 /* HTSubtitlesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTSubtitlesModel.m; sourceTree = "<group>"; };
+		012450612A776912009CD788 /* HTTVDetailSeasonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailSeasonModel.h; sourceTree = "<group>"; };
+		012450622A776912009CD788 /* HTTVDetailCastsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailCastsModel.h; sourceTree = "<group>"; };
+		012450632A776912009CD788 /* HTTVDetailEpsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailEpsModel.m; sourceTree = "<group>"; };
+		012450642A776912009CD788 /* HTTVDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailModel.h; sourceTree = "<group>"; };
+		012450652A776912009CD788 /* HTTVDetailCastsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailCastsModel.m; sourceTree = "<group>"; };
+		012450662A776912009CD788 /* HTTVDetailSeasonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailSeasonModel.m; sourceTree = "<group>"; };
+		012450672A776912009CD788 /* HTTVDetailEpsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTVDetailEpsModel.h; sourceTree = "<group>"; };
+		012450682A776912009CD788 /* HTTVDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTVDetailModel.m; sourceTree = "<group>"; };
+		8E46AB4F3BAD05A64173AAE4 /* Pods-HTPlayerModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTPlayerModule.debug.xcconfig"; path = "Target Support Files/Pods-HTPlayerModule/Pods-HTPlayerModule.debug.xcconfig"; sourceTree = "<group>"; };
+		B7F2578D2BEFA0E870BD2D38 /* Pods_HTPlayerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTPlayerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76EBE5A2FEB813602EAAB7F /* Pods-HTPlayerModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTPlayerModule.release.xcconfig"; path = "Target Support Files/Pods-HTPlayerModule/Pods-HTPlayerModule.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01244FF82A7763F2009CD788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6EB8310A5746DDF6CBA1A4 /* Pods_HTPlayerModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01244FF22A7763F2009CD788 = {
+			isa = PBXGroup;
+			children = (
+				01244FFD2A7763F2009CD788 /* HTPlayerModule */,
+				01244FFC2A7763F2009CD788 /* Products */,
+				F846F1046F1BBEBD2D2F81CB /* Pods */,
+				C0EEAB3A431B5FC65759247D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01244FFC2A7763F2009CD788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01244FFB2A7763F2009CD788 /* HTPlayerModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01244FFD2A7763F2009CD788 /* HTPlayerModule */ = {
+			isa = PBXGroup;
+			children = (
+				0124501E2A77685C009CD788 /* Classes */,
+				01244FFE2A7763F2009CD788 /* AppDelegate.h */,
+				01244FFF2A7763F2009CD788 /* AppDelegate.m */,
+				012450012A7763F2009CD788 /* SceneDelegate.h */,
+				012450022A7763F2009CD788 /* SceneDelegate.m */,
+				012450042A7763F2009CD788 /* ViewController.h */,
+				012450052A7763F2009CD788 /* ViewController.m */,
+				0124501D2A776827009CD788 /* PrefixHeader.pch */,
+				012450072A7763F2009CD788 /* Main.storyboard */,
+				0124500A2A7763F4009CD788 /* Assets.xcassets */,
+				0124500C2A7763F4009CD788 /* LaunchScreen.storyboard */,
+				0124500F2A7763F4009CD788 /* Info.plist */,
+				012450102A7763F4009CD788 /* main.m */,
+			);
+			path = HTPlayerModule;
+			sourceTree = "<group>";
+		};
+		0124501E2A77685C009CD788 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0124505E2A7768EA009CD788 /* HTSubtitlesModel.h */,
+				0124505F2A7768EA009CD788 /* HTSubtitlesModel.m */,
+				012450622A776912009CD788 /* HTTVDetailCastsModel.h */,
+				012450652A776912009CD788 /* HTTVDetailCastsModel.m */,
+				012450672A776912009CD788 /* HTTVDetailEpsModel.h */,
+				012450632A776912009CD788 /* HTTVDetailEpsModel.m */,
+				012450642A776912009CD788 /* HTTVDetailModel.h */,
+				012450682A776912009CD788 /* HTTVDetailModel.m */,
+				012450612A776912009CD788 /* HTTVDetailSeasonModel.h */,
+				012450662A776912009CD788 /* HTTVDetailSeasonModel.m */,
+				012450442A77685C009CD788 /* HTChangeEpisodesView.h */,
+				0124502C2A77685C009CD788 /* HTChangeEpisodesView.m */,
+				012450252A77685C009CD788 /* HTChangeSubtitleView.h */,
+				0124503E2A77685C009CD788 /* HTChangeSubtitleView.m */,
+				012450212A77685C009CD788 /* HTChangeSubtitleViewManager.h */,
+				012450362A77685C009CD788 /* HTChangeSubtitleViewManager.m */,
+				012450262A77685C009CD788 /* HTEpisodesMainView.h */,
+				0124503D2A77685C009CD788 /* HTEpisodesMainView.m */,
+				012450432A77685C009CD788 /* HTEpisodesMainViewManager.h */,
+				0124502B2A77685C009CD788 /* HTEpisodesMainViewManager.m */,
+				012450402A77685C009CD788 /* HTEpisodesViewCell.h */,
+				0124502F2A77685C009CD788 /* HTEpisodesViewCell.m */,
+				012450222A77685C009CD788 /* HTLanguageCell.h */,
+				012450352A77685C009CD788 /* HTLanguageCell.m */,
+				012450422A77685C009CD788 /* HTPlayBottomBar.h */,
+				0124502D2A77685C009CD788 /* HTPlayBottomBar.m */,
+				012450242A77685C009CD788 /* HTPlayBottomBarManager.h */,
+				0124503F2A77685C009CD788 /* HTPlayBottomBarManager.m */,
+				0124503A2A77685C009CD788 /* HTPlayer.h */,
+				012450292A77685C009CD788 /* HTPlayer.m */,
+				012450312A77685C009CD788 /* HTPlayerViewModel.h */,
+				012450472A77685C009CD788 /* HTPlayerViewModel.m */,
+				0124503B2A77685C009CD788 /* HTSettingCell.h */,
+				012450282A77685C009CD788 /* HTSettingCell.m */,
+				012450322A77685C009CD788 /* HTSubtitleLanguageView.h */,
+				012450462A77685C009CD788 /* HTSubtitleLanguageView.m */,
+				012450342A77685C009CD788 /* HTSubtitleLanguageViewManager.h */,
+				012450232A77685C009CD788 /* HTSubtitleLanguageViewManager.m */,
+				012450202A77685C009CD788 /* HTSubtitleMainView.h */,
+				012450382A77685C009CD788 /* HTSubtitleMainView.m */,
+				0124501F2A77685C009CD788 /* HTSubtitleMainViewManager.h */,
+				012450372A77685C009CD788 /* HTSubtitleMainViewManager.m */,
+				012450272A77685C009CD788 /* HTSubtitleManager.h */,
+				0124503C2A77685C009CD788 /* HTSubtitleManager.m */,
+				012450412A77685C009CD788 /* HTSubtitleObject.h */,
+				0124502E2A77685C009CD788 /* HTSubtitleObject.m */,
+				012450332A77685C009CD788 /* HTSubtitleSettingView.h */,
+				012450452A77685C009CD788 /* HTSubtitleSettingView.m */,
+				012450302A77685C009CD788 /* HTSubtitleSettingViewManager.h */,
+				012450482A77685C009CD788 /* HTSubtitleSettingViewManager.m */,
+				0124502A2A77685C009CD788 /* HTSubtitleView.h */,
+				012450392A77685C009CD788 /* HTSubtitleView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C0EEAB3A431B5FC65759247D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7F2578D2BEFA0E870BD2D38 /* Pods_HTPlayerModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F846F1046F1BBEBD2D2F81CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E46AB4F3BAD05A64173AAE4 /* Pods-HTPlayerModule.debug.xcconfig */,
+				D76EBE5A2FEB813602EAAB7F /* Pods-HTPlayerModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01244FFA2A7763F2009CD788 /* HTPlayerModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012450142A7763F4009CD788 /* Build configuration list for PBXNativeTarget "HTPlayerModule" */;
+			buildPhases = (
+				250108BACFA2F8BDBB668307 /* [CP] Check Pods Manifest.lock */,
+				01244FF72A7763F2009CD788 /* Sources */,
+				01244FF82A7763F2009CD788 /* Frameworks */,
+				01244FF92A7763F2009CD788 /* Resources */,
+				137D3D8C7267EA482734F8B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTPlayerModule;
+			productName = HTPlayerModule;
+			productReference = 01244FFB2A7763F2009CD788 /* HTPlayerModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01244FF32A7763F2009CD788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					01244FFA2A7763F2009CD788 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 01244FF62A7763F2009CD788 /* Build configuration list for PBXProject "HTPlayerModule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01244FF22A7763F2009CD788;
+			productRefGroup = 01244FFC2A7763F2009CD788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01244FFA2A7763F2009CD788 /* HTPlayerModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01244FF92A7763F2009CD788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0124500E2A7763F4009CD788 /* LaunchScreen.storyboard in Resources */,
+				0124500B2A7763F4009CD788 /* Assets.xcassets in Resources */,
+				012450092A7763F2009CD788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137D3D8C7267EA482734F8B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTPlayerModule/Pods-HTPlayerModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HTPlayerModule/Pods-HTPlayerModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HTPlayerModule/Pods-HTPlayerModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		250108BACFA2F8BDBB668307 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HTPlayerModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01244FF72A7763F2009CD788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012450512A77685C009CD788 /* HTLanguageCell.m in Sources */,
+				0124504E2A77685C009CD788 /* HTPlayBottomBar.m in Sources */,
+				0124506B2A776912009CD788 /* HTTVDetailSeasonModel.m in Sources */,
+				012450062A7763F2009CD788 /* ViewController.m in Sources */,
+				0124505A2A77685C009CD788 /* HTSubtitleSettingView.m in Sources */,
+				012450502A77685C009CD788 /* HTEpisodesViewCell.m in Sources */,
+				012450572A77685C009CD788 /* HTEpisodesMainView.m in Sources */,
+				0124504C2A77685C009CD788 /* HTEpisodesMainViewManager.m in Sources */,
+				012450532A77685C009CD788 /* HTSubtitleMainViewManager.m in Sources */,
+				0124505B2A77685C009CD788 /* HTSubtitleLanguageView.m in Sources */,
+				012450002A7763F2009CD788 /* AppDelegate.m in Sources */,
+				012450562A77685C009CD788 /* HTSubtitleManager.m in Sources */,
+				0124505D2A77685C009CD788 /* HTSubtitleSettingViewManager.m in Sources */,
+				012450542A77685C009CD788 /* HTSubtitleMainView.m in Sources */,
+				012450582A77685C009CD788 /* HTChangeSubtitleView.m in Sources */,
+				012450522A77685C009CD788 /* HTChangeSubtitleViewManager.m in Sources */,
+				0124504F2A77685C009CD788 /* HTSubtitleObject.m in Sources */,
+				012450112A7763F4009CD788 /* main.m in Sources */,
+				012450602A7768EA009CD788 /* HTSubtitlesModel.m in Sources */,
+				012450492A77685C009CD788 /* HTSubtitleLanguageViewManager.m in Sources */,
+				0124504A2A77685C009CD788 /* HTSettingCell.m in Sources */,
+				0124504B2A77685C009CD788 /* HTPlayer.m in Sources */,
+				0124505C2A77685C009CD788 /* HTPlayerViewModel.m in Sources */,
+				012450552A77685C009CD788 /* HTSubtitleView.m in Sources */,
+				0124506C2A776912009CD788 /* HTTVDetailModel.m in Sources */,
+				012450692A776912009CD788 /* HTTVDetailEpsModel.m in Sources */,
+				012450032A7763F2009CD788 /* SceneDelegate.m in Sources */,
+				0124506A2A776912009CD788 /* HTTVDetailCastsModel.m in Sources */,
+				012450592A77685C009CD788 /* HTPlayBottomBarManager.m in Sources */,
+				0124504D2A77685C009CD788 /* HTChangeEpisodesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012450072A7763F2009CD788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012450082A7763F2009CD788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0124500C2A7763F4009CD788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0124500D2A7763F4009CD788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012450122A7763F4009CD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		012450132A7763F4009CD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012450152A7763F4009CD788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E46AB4F3BAD05A64173AAE4 /* Pods-HTPlayerModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTPlayerModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.HTPlayerModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012450162A7763F4009CD788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D76EBE5A2FEB813602EAAB7F /* Pods-HTPlayerModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HTPlayerModule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteWhaleTech.HTPlayerModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01244FF62A7763F2009CD788 /* Build configuration list for PBXProject "HTPlayerModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012450122A7763F4009CD788 /* Debug */,
+				012450132A7763F4009CD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012450142A7763F4009CD788 /* Build configuration list for PBXNativeTarget "HTPlayerModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012450152A7763F4009CD788 /* Debug */,
+				012450162A7763F4009CD788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01244FF32A7763F2009CD788 /* Project object */;
+}
